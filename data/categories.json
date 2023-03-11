@@ -3,5 +3,25 @@
         "id": 0,
         "categoryName": "lyric",
         "categoryDescription": "Lyrical Poetry is the poems that express the feelings of excitement that arise and rise in the soul of the poet in a sincere way and are full of emotions."
+    },
+    {
+        "id": 1,
+        "categoryName": "epic",
+        "categoryDescription": "Epic poetry is the type of poetry that expresses the subjects related to patriotism, valor, heroism and war."
+    },
+    {
+        "id": 2,
+        "categoryName": "didactic",
+        "categoryDescription": "Didactic poems are instructive poems that are written to impose a certain idea or to give information on a certain subject, to give advice, to teach a moral lesson."
+    },
+    {
+        "id": 3,
+        "categoryName": "pastoral",
+        "categoryDescription": "Pastoral poetry is a type of poetry that expresses the beauties of nature such as forest, mountain, village and plateau and the feeling of longing for this life."
+    },
+    {
+        "id": 4,
+        "categoryName": "satirical",
+        "categoryDescription": "It is called satire poems in which the irregularities in the social life, the failing sides, the ineptitude and weaknesses of the people in various subjects are expressed."
     }
 ]
