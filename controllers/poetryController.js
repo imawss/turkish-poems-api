@@ -9,8 +9,9 @@ function json2array(json) {
     return result;
 }
 
+export const poetry = json2array(poetryJson);
+
 export const randomPoem = async function (req, res) {
-    const poetry = json2array(poetryJson);
     const randomId = Math.floor(Math.random() * poetry.length);
     const data = poetry[randomId];
     const output = {
@@ -21,5 +22,5 @@ export const randomPoem = async function (req, res) {
         "author": data.author
     };
 
-    res.send(400, output);
+    res.send(200, output);
 }
