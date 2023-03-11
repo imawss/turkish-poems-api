@@ -1,3 +1,19 @@
 [
-
+    {
+        "id": 0,
+        "categoryId": 0,
+        "poemName": "Aşk Mönüsü",
+        "poem": [
+            "Sen sabahlar ve şafaklar kadar güzelsin",
+            "sen ülkemin yaz geceleri gibisin",
+            "saadetten haber getiren atlı kapını çaldığında, beni unutma.",
+            "Ah! Saklı gülüm ",
+            "sen hem zor hem güzelsin.",
+            "Şiirlerimin ılıklığında açılmalısın",
+            "sana burada veriyorum hayata ayrılan buseyi",
+            "sen memleketim kadar güzelsin,",
+            "ve güzel kal..."
+        ],
+        "author": "Nazım Hikmet RAN"
+    }
 ]
