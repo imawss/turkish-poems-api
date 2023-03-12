@@ -11,10 +11,10 @@ function json2array(json) {
 }
 
 export const poetry = json2array(poetryJson);
+export const randomId = Math.floor(Math.random() * poetry.length);
 export const categories = json2array(categoriesJson);
 
 export const randomPoem = async function (req, res) {
-    const randomId = Math.floor(Math.random() * poetry.length);
     const data = poetry[randomId];
     const categoryDT = categories.filter(category => category.id == data.categoryId);
     const output = {
@@ -26,4 +26,8 @@ export const randomPoem = async function (req, res) {
     };
 
     res.send(200, output);
+}
+
+export const randomPoemWithFilter = async function(req, res){
+    
 }
