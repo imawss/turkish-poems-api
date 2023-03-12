@@ -1,4 +1,5 @@
 import poetryJson from "../data/poetry.json" assert {type: "json"};
+import categoriesJson from "../data/categories.json" assert {type: "json"};
 
 function json2array(json) {
     var result = [];
@@ -10,13 +11,15 @@ function json2array(json) {
 }
 
 export const poetry = json2array(poetryJson);
+export const categories = json2array(categoriesJson);
 
 export const randomPoem = async function (req, res) {
     const randomId = Math.floor(Math.random() * poetry.length);
     const data = poetry[randomId];
+    const categoryDT = categories.filter(category => category.id == data.categoryId);
     const output = {
         "id": data.id,
-        "categoryId": data.categoryId,
+        "category": categoryDT,
         "poemName": data.poemName,
         "poem": data.poem,
         "author": data.author
