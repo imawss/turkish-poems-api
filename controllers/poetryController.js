@@ -11,10 +11,10 @@ function json2array(json) {
 }
 
 export const poetry = json2array(poetryJson);
-export const randomId = Math.floor(Math.random() * poetry.length);
 export const categories = json2array(categoriesJson);
 
 export const randomPoem = async function (req, res) {
+    const randomId = Math.floor(Math.random() * poetry.length);
     const data = poetry[randomId];
     const categoryDT = categories.filter(category => category.id == data.categoryId);
     const output = {
@@ -29,5 +29,18 @@ export const randomPoem = async function (req, res) {
 }
 
 export const randomPoemWithFilter = async function(req, res){
-    
+    const { categoryFilter } = req.body;
+    const filteredArr = poetry.filter(poem => poem.categoryId == categoryFilter);
+    const randomId = Math.floor(Math.random() * filteredArr.length);
+    const data = filteredArr[randomId];
+    const categoryDT = categories.filter(category => category.id == data.categoryId);
+    const output = {
+        "id": data.id,
+        "category": categoryDT,
+        "poemName": data.poemName,
+        "poem": data.poem,
+        "author": data.author
+    };
+
+    res.send(200, output);
 }
