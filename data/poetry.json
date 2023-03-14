@@ -5,15 +5,95 @@
         "poemName": "Aşk Mönüsü",
         "poem": [
             "Sen sabahlar ve şafaklar kadar güzelsin",
-            "sen ülkemin yaz geceleri gibisin",
-            "saadetten haber getiren atlı kapını çaldığında, beni unutma.",
+            "Sen ülkemin yaz geceleri gibisin",
+            "Saadetten haber getiren atlı kapını çaldığında, beni unutma.",
             "Ah! Saklı gülüm ",
-            "sen hem zor hem güzelsin.",
+            "Sen hem zor hem güzelsin.",
             "Şiirlerimin ılıklığında açılmalısın",
-            "sana burada veriyorum hayata ayrılan buseyi",
-            "sen memleketim kadar güzelsin,",
-            "ve güzel kal..."
+            "Sana burada veriyorum hayata ayrılan buseyi",
+            "Sen memleketim kadar güzelsin,",
+            "Ve güzel kal..."
         ],
         "author": "Nazım Hikmet RAN"
+    },
+    {
+        "id": 1,
+        "categoryId": 1,
+        "poemName": "Turan",
+        "poem": [
+            "Nabızlarımda vuran duygular ki tarihin",
+            "Birer derin sesidir, ben sahifelerde değil",
+            "Güzide, şanlı, necip ırkımın uzak ve yakın",
+            "Bütün zaferlerini kalbimin tanininde",
+            "Nabızlarımda okur, anlar, eylerim tebcil.",
+            "Sahifelerde değil, çünkü Atilla, Cengiz",
+            "Zaferle ırkımın tetviç eden bu nasiyeler,",
+            "O tozlu çerçevelerde, o iftira amiz",
+            "Muhit içinde görünmekte kirli, şermende;",
+            "Fakat şerefle numayan Sezar ve İskender!",
+            "Nabızlarımda evet, çünkü ilm için müphem",
+            "Kalan Oğuz Han'ı kalbim tanır tamamiyle",
+            "Damarlarımda yaşar şan-ü ihtişamiyle",
+            "Oğuz Han, işte budur gönlümü eden mülhem:",
+            "Vatan ne Türkiyedir Türklere, ne Türkistan",
+            "Vatan, büyük ve müebbet bir ülkedir: Turan"
+        ],
+        "author": "Ziya GÖKALP"
+    },
+    {
+        "id": 2,
+        "categoryId": 0,
+        "poemName": "Herkes Gibisin",
+        "poem": [
+            "Gönlümle baş başa düşündüm demin;",
+            "Artık bir sihirsiz nefes gibisin.",
+            "Şimdi tâ içinde bomboş kalbimin",
+            "Akisleri sönen bir ses gibisin.",
+            "Mâziye karışıp sevda yeminim,",
+            "Bir anda unuttum seni, eminim",
+            "Kalbimde kalbine yok bile kinim",
+            "Bence artık sen de herkes gibisin."
+        ],
+        "author": "Nazım Hikmet RAN"
+    },
+    {
+        "id": 3,
+        "categoryId": 3,
+        "poemName": "Haberin Var Mı?",
+        "poem": [
+            "Haberin var mı taş duvar?",
+            "Demir kapı, kör pencere,",
+            "Yastığım, ranzam, zincirim,",
+            "Uğrunda ölümlere gidip geldiğim",
+            "Zulamdaki mahzun resim.",
+            "Görüşmecim yeşil soğan göndermiş.",
+            "Karanfil kokuyor cigaram",
+            "Dağlarına bahar gelmiş memleketimin..."
+        ],
+        "author": "Ahmet ARİF"
+    },
+    {
+        "id": 4,
+        "categoryId": 3,
+        "poemName": "Yaşama Dair Şeyler",
+        "poem": [
+            "Bilir misin ay çiçeklerini?",
+            "Sabah güneşe döner ya.",
+            "Kaybolunca ufuk çizgisinde;",
+            "O hep boynunu büker ya.",
+            "Değiştir artık soğuk geceleri",
+            "Yeni doğan güne bir bak.",
+            "Çiçeklere, ağaçlara, güllere!",
+            "Uçmayı yeni öğrenen kuşların sevincine.",
+            "Yaşam; bir çiçeğin,",
+            "Sabırsız bekleyişinde.",
+            "Bir kerecik görebilmek güneşi!",
+            "O kısacık ömründe.",
+            "Sende dön yüzünü.",
+            "Bak ilk defa görmüşcesine",
+            "Hangi aşk, hangi acı değer?",
+            "Günü yaşıyamadan ölmeye."
+        ],
+        "author": "Halide Edip ADIVAR"
     }
 ]
