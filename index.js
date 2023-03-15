@@ -22,3 +22,5 @@ app.use('/api', poetryRoute);
 app.listen(process.env.PORT || port, function() {
     console.log("Server is starting! Port number is:" + port);
 });
+
+export default app;
